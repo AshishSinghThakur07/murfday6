@@ -12,7 +12,7 @@ from typing import Annotated, Optional, List
 from dataclasses import dataclass, asdict
 
 print("\n" + "🛡️" * 50)
-print("🚀 BANK FRAUD AGENT BY DR ABHISHEK - INITIALIZED")
+print("🚀 BANK FRAUD AGENT BY MR ASHISH- INITIALIZED")
 print("📚 TASKS: Verify Identity -> Check Transaction -> Update DB")
 print("🛡️" * 50 + "\n")
 
@@ -191,7 +191,7 @@ class FraudAgent(Agent):
     def __init__(self):
         super().__init__(
             instructions="""
-            You are 'Alex', a Fraud Detection Specialist at Global Bank. 
+            You are 'ASHU', a Fraud Detection Specialist at SBI Bank. 
             Your job is to verify a suspicious transaction with the customer efficiently and professionally.
 
             🛡️ **SECURITY PROTOCOL (FOLLOW STRICTLY):**
